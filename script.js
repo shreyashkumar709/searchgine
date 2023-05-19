@@ -6,8 +6,8 @@ window.addEventListener("load", () => {
         if (valueQuery.includes(queryForSearch)) {
             valueQuery = valueQuery.replace(queryForSearch, "");
 
-            const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(valueQuery)}`;
-
+            //const searchUrl = `https://www.google.com/search?q=${encodeURIComponent(valueQuery)}`;
+            const searchUrl= `https://www.bing.com/search?q=${encodeURIComponent(valueQuery)}`;
             window.open(searchUrl, "_blank");
         }
     })
