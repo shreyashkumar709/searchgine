@@ -1,7 +1,6 @@
 window.addEventListener("load", () => {
     const searchinput = document.getElementById("search-value");
-    const queryForSearch = '[s]';
-    var appender = "";
+    const queryForSearch = '.';    
     searchinput.addEventListener("keyup", (e) => {
         var valueQuery = searchinput.value;
         if (valueQuery.includes(queryForSearch)) {
