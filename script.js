@@ -1,4 +1,5 @@
 window.addEventListener("load", () => {
+    alert("To Search Just End the Sentence with '.'")
     const searchinput = document.getElementById("search-value");
     const queryForSearch = '.';    
     searchinput.addEventListener("keyup", (e) => {
